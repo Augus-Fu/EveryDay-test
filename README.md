@@ -1,2 +1,2 @@
-# EveryDay-test
-每日练习用的
+# EveryDay-test（C++）
+每日练习
