@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\Visual Studio\fzq.src\LeetCode_test3\test.cpp(8,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Visual Studio\fzq.src\LeetCode_test3\test.cpp(8,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  LeetCode_test3.vcxproj -> D:\Visual Studio\fzq.src\LeetCode_test3\x64\Debug\LeetCode_test3.exe
