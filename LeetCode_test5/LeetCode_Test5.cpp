@@ -71,6 +71,14 @@ int uniqueMorseRepresentations(vector<string>& words) {
             }
         }
     }
+    /*
+    更优解：
+    set<string> result;//set类型元素唯一性，自动去重。
+    for(int i=0;i<words.size();i++)
+    {
+        result.insert(morse_result(words[i]));
+    }
+    */
     return result.size();
 }
 
