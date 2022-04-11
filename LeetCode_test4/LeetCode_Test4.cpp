@@ -1,32 +1,32 @@
 /*
-LeetCode.357(ÖĞµÈ)
-¸øÄãÒ»¸öÕûÊı n £¬Í³¼Æ²¢·µ»Ø¸÷Î»Êı×Ö¶¼²»Í¬µÄÊı×Ö x µÄ¸öÊı
-²âÊÔÓÃÀı£ºn=2 result=91;n=0 result=1;n=5 result=
+LeetCode.357(ä¸­ç­‰)
+ç»™ä½ ä¸€ä¸ªæ•´æ•° n ï¼Œç»Ÿè®¡å¹¶è¿”å›å„ä½æ•°å­—éƒ½ä¸åŒçš„æ•°å­— x çš„ä¸ªæ•°
+æµ‹è¯•ç”¨ä¾‹ï¼šn=2 result=91;n=0 result=1;n=5 result=32491
 */
 #include<iostream>
 using namespace std;
 int INDEX(int n)
 {
-    int result = 9, index = 9;//result³õÖµÎª9ÒòÎª×î¸ßÎ»²»ÄÜÈ¡0£¬Ö»ÄÜÊÇ0~9ÖĞµÄÒ»¸öÊı
+    int result = 9, index = 9;//resultåˆå€¼ä¸º9å› ä¸ºæœ€é«˜ä½ä¸èƒ½å–0ï¼Œåªèƒ½æ˜¯0~9ä¸­çš„ä¸€ä¸ªæ•°
     while (n-- != 1)
     {
         result *= index--;
     }
     return result;
 }
-int DIGIT(int n)//ÇónÎ»ÊıµÄ½á¹û
+int DIGIT(int n)//æ±‚nä½æ•°çš„ç»“æœ
 {
-    if (n == 1) return 10;//n=1Ê±·µ»Ø10£¨µ¥¸öÊı×ÖÇé¿ö£©
-    int result = INDEX(n) + DIGIT(n - 1);//µİ¹é
+    if (n == 1) return 10;//n=1æ—¶è¿”å›10ï¼ˆå•ä¸ªæ•°å­—æƒ…å†µï¼‰
+    int result = INDEX(n) + DIGIT(n - 1);//é€’å½’
     return result;
 }
 int countNumbersWithUniqueDigits(int n)
 {
-    if (n > 9) return 0;//³¬¹ı9Î»Êı£¬±Ø¶¨²»Âú×ãÌâÒâ
+    if (n > 9) return 0;//è¶…è¿‡9ä½æ•°ï¼Œå¿…å®šä¸æ»¡è¶³é¢˜æ„
     if (n == 0) return 1;
-    return DIGIT(n);//µ÷ÓÃº¯ÊıDIGIT
+    return DIGIT(n);//è°ƒç”¨å‡½æ•°DIGIT
 }
-/*¼ò»¯°æÌâ½â£º
+/*ç®€åŒ–ç‰ˆé¢˜è§£ï¼š
 int countNumbersWithUniqueDigits(int n) {
         if (n == 0) {
             return 1;
