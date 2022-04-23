@@ -13,11 +13,11 @@ typedef struct listpoint
 }listpoint;
 listpoint* create_list(int n)
 {
-	listpoint* head, * normal, * end;
+	listpoint* head, * end, * normal;
 	head = (listpoint*)malloc(sizeof(listpoint));
 	head->a = (point*)malloc(sizeof(point));
 	end = head;
-	for (int i = 0; i < n; i++)
+	for(int i = 0; i < n; i++)
 	{
 		normal = (listpoint*)malloc(sizeof(listpoint));
 		normal->a = (point*)malloc(sizeof(point));
@@ -28,18 +28,33 @@ listpoint* create_list(int n)
 		cin >> normal->a->y;
 		cout << "----------------------------------" << endl;
 		/* 往新节点存入数据，注意我们只给后面的节点存入数据，head不存数据*/
-		end->next = normal;/*往end后增添新节点*/
-		normal->pre = end;/*新节点的上一个节点就是end*/
-		end = normal;/*最后一个节点变成新节点*/
+		end->next = normal;
+		normal->pre = end;
+		end = normal;
 	}
-	end->next = NULL;/*链表的最后指向一个新地址*/
-	head->pre = NULL;/*链表最开始的节点没有上一个节点*/
+	end->next = NULL;
+	head->pre = NULL;
 	return head;
+}
+//删除链表元素
+
+void delete_point(listpoint* list, int n)
+{
+	listpoint* p;
+	p = list;
+	for (int i = 0; i < n; i++)
+	{
+		p = p->next;
+	}
+	p->pre->next = p->next;
+	p->next->pre = p->pre;
+	free(p);
 }
 int main()
 {
-	listpoint *a;
-	a = create_list(3);
+	listpoint *head;
+	head = create_list(3);
+	delete_point(head, 1);
 	system("pause");
 	return 0;
 }
