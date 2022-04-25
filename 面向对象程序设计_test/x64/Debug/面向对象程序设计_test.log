@@ -1,0 +1,4 @@
+﻿  test_0.cpp
+D:\Visual Studio\fzq.src\面向对象程序设计_test\test_0.cpp(19,33): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\面向对象程序设计_test\test_0.cpp(20,38): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  面向对象程序设计_test.vcxproj -> D:\Visual Studio\fzq.src\面向对象程序设计_test\x64\Debug\面向对象程序设计_test.exe
