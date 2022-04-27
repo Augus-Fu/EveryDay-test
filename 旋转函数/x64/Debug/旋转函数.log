@@ -1,0 +1,3 @@
+﻿  旋转函数.cpp
+D:\Visual Studio\fzq.src\旋转函数\旋转函数.cpp(22,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  旋转函数.vcxproj -> D:\Visual Studio\fzq.src\旋转函数\x64\Debug\旋转函数.exe
