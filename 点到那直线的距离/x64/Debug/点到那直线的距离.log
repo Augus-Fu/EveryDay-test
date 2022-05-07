@@ -1,0 +1,8 @@
+﻿  点到直线的距离.cpp
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(9,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(10,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(11,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(12,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(12,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\fzq.src\点到那直线的距离\点到直线的距离.cpp(14,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  点到那直线的距离.vcxproj -> D:\Visual Studio\fzq.src\点到那直线的距离\x64\Debug\点到直线的距离.exe
