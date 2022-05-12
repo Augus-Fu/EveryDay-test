@@ -1,0 +1,4 @@
+﻿  面向对象程序设计.cpp
+D:\Visual Studio\fzq.src\面向对象程序设计.2\面向对象程序设计.cpp(11,15): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Visual Studio\fzq.src\面向对象程序设计.2\面向对象程序设计.cpp(11,25): warning C4305: “初始化”: 从“double”到“float”截断
+  面向对象程序设计.2.vcxproj -> D:\Visual Studio\fzq.src\面向对象程序设计.2\x64\Debug\面向对象程序设计.2.exe
