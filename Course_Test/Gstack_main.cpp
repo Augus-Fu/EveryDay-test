@@ -136,7 +136,7 @@ int eval(const char* express, double& v/*½á¹û*/)
 int main(int argc, char* argv[])
 {
 	double v;
-	char express[] = "2*(4+6-9.2+0.2)";
+	char express[] = "2*1*3";
 	//char express[256] = "";
 	//printf("Please input express\n");
 	//scanf("%s", express);
