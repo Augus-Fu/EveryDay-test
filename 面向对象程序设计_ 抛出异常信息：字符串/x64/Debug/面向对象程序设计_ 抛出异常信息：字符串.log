@@ -1,0 +1,3 @@
+﻿  面向对象程序设计_ 抛出异常信息：字符串.cpp
+D:\Visual Studio\fzq.src\面向对象程序设计_ 抛出异常信息：字符串\面向对象程序设计_ 抛出异常信息：字符串.cpp(40,16): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  面向对象程序设计_ 抛出异常信息：字符串.vcxproj -> D:\Visual Studio\fzq.src\面向对象程序设计_ 抛出异常信息：字符串\x64\Debug\面向对象程序设计_ 抛出异常信息：字符串.exe
